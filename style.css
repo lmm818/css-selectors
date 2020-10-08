@@ -1,0 +1,50 @@
+body, p, a {
+  background-color: #ffcf75;
+  color: #000;
+  margin:0px;
+}
+.menu a:link {
+  color: #29a358;
+}
+
+.menu {
+  margin: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu > a:hover{
+  background-image: linear-gradient(white, lightblue);
+}
+
+.someParagraphs > p:hover {
+  background-color: #fff8eb;
+  color: #29a358
+}
+
+.someVideos {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.someVideos iframe:hover{
+  height: 400px;
+  width: 711px;
+}
+
+.someInfo p::first-letter{
+  font-size: 30px;
+}
+
+.someInfo p:hover {
+  background-color: #ffb01f;
+}
+
+p+p {
+  margin-left: 50px;
+  padding: 30px;
+}
